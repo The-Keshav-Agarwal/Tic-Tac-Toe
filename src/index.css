@@ -30,6 +30,7 @@ body {
     padding: 0;
     text-align: center;
     width: 34px;
+    cursor: pointer;
   }
   
   .square:focus {
@@ -49,3 +50,10 @@ body {
     margin-left: 20px;
   }
   
+  .list{
+    margin: 10px;
+  }
+
+  .list button{
+    cursor: pointer;
+  }

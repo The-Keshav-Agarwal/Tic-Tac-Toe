@@ -82,7 +82,7 @@ function Square(props) {
       const moves = history.map((step,move)=>{
         const desk = move?"Go To Move #" + move:"Go to game start";
         return (
-          <li key={move}>
+          <li key={move} className="list">
             <button onClick={()=>this.jumpto(move)}>{desk}</button>
           </li>
         )
